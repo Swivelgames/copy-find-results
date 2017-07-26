@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    ".preview-pane": [
+      {
+        "label": "Copy Find Results (Text)",
+        "command": "copy-find-results:text"
+      },
+      {
+        "label": "Copy Find Results (JSON)",
+        "command": "copy-find-results:json"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Copy Find Results",
+          "submenu": [
+            {
+              "label": "Copy as text",
+              "command": "copy-find-results:text"
+            },
+            {
+              "label": "Copy as JSON",
+              "command": "copy-find-results:json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
