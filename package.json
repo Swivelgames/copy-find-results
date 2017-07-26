@@ -1,21 +1,27 @@
 {
   "name": "copy-find-results",
   "main": "./lib/copy-find-results",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Copies 'Find In Project' results to clipboard and displays in a new tab in format inspired by Sublime Text.",
   "keywords": [
-    "copy", "find", "replace",
-    "search", "sublime",
-    "page", "result"
+    "copy",
+    "find",
+    "replace",
+    "search",
+    "sublime",
+    "page",
+    "result"
   ],
   "activationCommands": {
-    "atom-workspace": ["copy-find-results:text", "copy-find-results:json"]
+    "atom-workspace": [
+      "copy-find-results:text",
+      "copy-find-results:json"
+    ]
   },
   "repository": "https://github.com/Swivelgames/copy-find-results",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
