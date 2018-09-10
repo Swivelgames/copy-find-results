@@ -1,7 +1,7 @@
 {
   "name": "copy-find-results",
   "main": "./lib/copy-find-results",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Copies 'Find In Project' results to clipboard and displays in a new tab in format inspired by Sublime Text.",
   "keywords": [
     "copy",
